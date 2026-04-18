@@ -1,4 +1,4 @@
-
+// Basic Express server setup with CORS and JSON parsing, along with routes for authentication and posts.
 const express = require("express");
 const cors = require("cors");
 require("dotenv").config();
