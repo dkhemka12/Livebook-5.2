@@ -1,4 +1,6 @@
-
+// Basic Express server setup with CORS and JSON parsing, along with routes for authentication and posts.
+// This server listens on a specified port and provides a health check endpoint to verify that the API is running.
+// Import necessary modules and configure environment variables
 const express = require("express");
 const cors = require("cors");
 require("dotenv").config();
